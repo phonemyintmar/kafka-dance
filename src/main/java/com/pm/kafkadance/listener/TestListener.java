@@ -25,6 +25,8 @@ public class TestListener {
 
     }
 
+    // this is some type of idk i dont want to use this.
+    // what i have seen is, this is used with class level kafka listener and this handler is used to actually handle.
     @KafkaHandler
     public void testHanlder(){
         log.info("handled");

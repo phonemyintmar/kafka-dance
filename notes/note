@@ -1,0 +1,14 @@
+This module intended to test some more kafka concepts, but havne't test much first.
+Now we are putting retry and dlt configs in here and test.
+
+In kafka, there is non blocking retries and blocking retries, use what fits ur proj, but seems like non blocking is better
+so we are using non blocking in here.
+
+most of the stuff done here are from this document (https://docs.spring.io/spring-kafka/reference/retrytopic/retry-config.html).
+
+Alot of things in here are not really tested yet. But pretty sure most of things will work, we just took the most simplest things
+that we think we needs. Just setup the kafka and make a topic and try it maybe. pretty sure it will just work or will only need a slight twist.
+Of coz here we have multiple configs we might need to fix them and get a config and try. but this should be enough.
+
+
+Just setup some visual for kafka and test different approachs mentioned in this repo if we needs it. Your welcome :).
